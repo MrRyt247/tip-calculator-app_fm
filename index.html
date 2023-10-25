@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Space Mono' rel='stylesheet'>
+    <title>Tip calculator App</title>
+  </head>
+  <body>
+    <img class="header" src="images/logo.svg" alt="logo">
+    <div class="container">
+      <div class="wrapper one">
+        <div class="item">
+          <div class="flexbox">
+            <label name="bill">Bill</label>
+            <span class="log" id="logBill"></span>
+          </div>
+          <input type="number" id="bill" inputmode="numeric" placeholder="0">
+          <img src="images/icon-dollar.svg" class="dollar" alt="icon-dollar">
+        </div>
+        <div class="item">
+          <label>Select Tip %</label>
+          <div class="grid-layout">
+            <button value=.05>5%</button>
+            <button value=.1>10%</button>
+            <button value=.15>15%</button>
+            <button value=.25>25%</button>
+            <button value=.5>50%</button>
+            <input type="number" id="customInput" inputmode="numeric" placeholder="Custom">
+          </div>
+        </div>
+        <div class="item">
+          <div class="flexbox">
+            <label>Number of People</label>
+            <span class="log" id="logNumOfPeople"></span>
+          </div>
+          <input type="number" id="numOfPeople" inputmode="numeric" placeholder="0">
+          <img src="images/icon-person.svg" class="person" alt="icon-person">
+        </div>
+      </div>
+      <div class="wrapper two">
+        <div class="subwrapper">
+          <div class="item">
+            <div class="subitem">
+              <span>Tip Amount</span>
+              <span>/ person</span>
+            </div>
+            <div id="tipAmount" class="price">$0.00</div>
+          </div>
+          <div class="item">
+            <div class="subitem">
+              <span>Total</span>
+              <span>/ person</span>
+            </div>
+            <div id="total" class="price">$0.00</div>
+          </div>
+        </div>
+        <button id="reset" disabled="disabled">Reset</button>
+      </div>
+    </div>
+    <div class="attribution">
+      <p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://www.frontendmentor.io/profile/MrRyt247" target="_blank">Mr. Ryt</a>.
+      </p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
