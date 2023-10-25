@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/MrRyt247/tip-calculator-app_fm.git](https://github.com/MrRyt247/tip-calculator-app_fm.git)
+- Live Site URL: [https://mrryt247.github.io/tip-calculator-app_fm](https://mrryt247.github.io/tip-calculator-app_fm/)
 
 ## My process
 
