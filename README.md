@@ -77,8 +77,9 @@ $(".grid-layout button").click(function() {
 - [Sololearn](https://www.sololearn.com) - A great app to learn web development. It helped me in gaining jQuery knowledge.
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
+- Frontend Mentor - [@MrRyt247](https://www.frontendmentor.io/profile/MrRyt247)
+- X - [@MrRyt19](https://www.twitter.com/MrRyt19)
 
 ## Acknowledgments
 
